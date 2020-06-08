@@ -1,0 +1,26 @@
+2020-06-08 16:30:01,568 INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator: [Consumer clientId=connector-consumer-test3-0, groupId=connect-test3] Fou
+nd no committed offset for partition test3-0                                                                                                                           
+2020-06-08 16:30:01,570 INFO org.apache.kafka.clients.consumer.internals.SubscriptionState: [Consumer clientId=connector-consumer-test3-0, groupId=connect-test3] Reset
+ting offset for partition test3-0 to offset 0.                                                                                                                         
+2020-06-08 16:30:01,570 INFO com.cloudera.dim.kafka.connect.hdfs.HdfsSinkTask: partitions [test3-0] are assigned                                                       
+2020-06-08 16:30:01,570 INFO org.apache.kafka.common.config.AbstractConfig: AbstractConfig values:                                                                     
+        output.avro.passthrough.enabled = true                                                                                                                         
+        output.json.schema.included = true                                                                                                                             
+        output.writer = class com.cloudera.dim.kafka.connect.partition.writers.avro.AvroPartitionWriter                                                                
+                                                                                                                                                                       
+2020-06-08 16:30:01,571 INFO com.cloudera.dim.kafka.connect.hdfs.HdfsSinkConnectorConfig: HdfsSinkConnectorConfig values:                                              
+        hadoop.conf.path = file:///etc/hadoop/conf                                                                                                                     
+        hdfs.kerberos.authentication = false                                                                                                                           
+        hdfs.kerberos.keytab.path = null                                                                                                                               
+        hdfs.kerberos.namenode.principal = null                                                                                                                        
+        hdfs.kerberos.user.principal = null                                                                                                                            
+        hdfs.output = /tmp/sensors/                                                                                                                                    
+        hdfs.uri = hdfs://TimIsCool.com:8020                                                                                               
+        output.avro.passthrough.enabled = true                                                                                                                         
+        output.json.schema.included = true                                                                                                                             
+        output.storage = class com.cloudera.dim.kafka.connect.hdfs.HdfsPartitionStorage                                                                                
+        output.writer = class com.cloudera.dim.kafka.connect.partition.writers.avro.AvroPartitionWriter                                                                
+                                                                                                                                                                       
+2020-06-08 16:30:01,571 INFO com.cloudera.dim.kafka.connect.hdfs.HdfsPartitionStorage: loading hadoop config from file:///etc/hadoop/conf                              
+2020-06-08 16:30:01,600 INFO com.cloudera.dim.kafka.connect.hdfs.HdfsPartitionStorage: found completed files []                                                        
+2020-06-08 16:30:01,601 INFO com.cloudera.dim.kafka.connect.hdfs.HdfsSinkTask: last committed offset of partition test3-0 is -1  
