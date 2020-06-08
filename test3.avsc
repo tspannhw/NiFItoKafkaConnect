@@ -1,0 +1,116 @@
+{
+ "type": "record",
+ "name": "test3",
+ "namespace": "com.cloudera.example",
+ "fields": [
+  {
+   "name": "sensor_id",
+   "doc": "Sensor identification number.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_ts",
+   "doc": "Timestamp of the collected readings.",
+   "type": [
+    "long",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_0",
+   "doc": "Reading #0.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_1",
+   "doc": "Reading #1.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_2",
+   "doc": "Reading #2.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_3",
+   "doc": "Reading #3.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_4",
+   "doc": "Reading #4.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_5",
+   "doc": "Reading #5.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_6",
+   "doc": "Reading #6.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_7",
+   "doc": "Reading #7.",
+   "type": "int"
+  },
+  {
+   "name": "sensor_8",
+   "doc": "Reading #8.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_9",
+   "doc": "Reading #9.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_10",
+   "doc": "Reading #10.",
+   "type": [
+    "int",
+    "null"
+   ]
+  },
+  {
+   "name": "sensor_11",
+   "doc": "Reading #11.",
+   "type": [
+    "int",
+    "null"
+   ]
+  }
+ ]
+}
