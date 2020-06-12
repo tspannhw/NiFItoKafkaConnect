@@ -1,9 +1,9 @@
 {
  "connector.class": "com.cloudera.dim.kafka.connect.hdfs.HdfsSinkConnector",
- "hdfs.uri": "hdfs://CDPAWSIP:8020",
+ "hdfs.uri": "hdfs://edge2ai-1.dim.local:8020",
  "tasks.max": "1",
  "topics": "test3",
- "value.converter.schema.registry.url": "http://CDPAWSIP:7788/api/v1",
+ "value.converter.schema.registry.url": "http://edge2ai-1.dim.local:7788/api/v1",
  "value.converter.passthrough.enabled": "true",
  "hdfs.output": "/tmp/sensors/",
  "output.avro.passthrough.enabled": "true",
