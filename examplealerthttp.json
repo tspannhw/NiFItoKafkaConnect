@@ -1,0 +1,3 @@
+{"id":"dbfc0dac-a859-4870-b34e-8f9f06cb886e",
+"payload":"Alert policy : \"ALERT IF ( CONSUMER (name=\"connect-test3\") CONSUMER_GROUP_LAG > 0 )\" has been evaluated to true\n\nCondition : \"CONSUMER_GROUP_LAG>0\" has been evaluated to true for following CONSUMERS \n   - CONSUMER = \"connect-test3\"  had following attribute values\n          * CONSUMER_GROUP_LAG = 70\n","headers":{"cluster.id":"JoyNlJfQSK2jZU2JM0qntg"},"alertPolicyId":3,"alertName":"Kafka Connect Consumer Alert","notifierInstanceIds":[1],"rootResource":{"type":"CONSUMER","name":"connect-test3"},"resolvedResources":[{"type":"CONSUMER","name":"connect-test3"}],
+"state":"RAISED","createTimestamp":1591985400866,"updateTimestamp":1591985400866}
